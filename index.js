@@ -1,9 +1,11 @@
 $('#bt').click(function() {
-    document.getElementById('hd').innerHTML = 'button Clicked';
+    alert('button');
+    // document.getElementById('hd').innerHTML = 'button Clicked';
 });
 
 $('#hd2').click(function() {
-    document.getElementById('hd').innerHTML = 'heading Clicked';
+    alert('heading');
+    // document.getElementById('hd').innerHTML = 'heading Clicked';
 });
 
 
