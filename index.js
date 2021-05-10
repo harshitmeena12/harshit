@@ -1,6 +1,6 @@
 $('#bt').click(function() {
-    alert('button');
-    // document.getElementById('hd').innerHTML = 'button Clicked';
+    this.innerHTML += '-clicked';
+    document.getElementById('hd').innerHTML += '-Clicked';
 });
 
 $('#hd2').click(function() {
@@ -9,9 +9,10 @@ $('#hd2').click(function() {
 });
 
 
-// document.getElementById('bt').addEventListener('click', function() {
-//     document.getElementById('hd').innerHTML += 'button Clicked';
-// });
+
+document.getElementById('clone').addEventListener('click', function() {
+    $('#hd').after($('#bt').clone(true));
+});
 
 // document.getElementById('hd2').addEventListener('click', function() {
 //     document.getElementById('hd').innerHTML += 'heading Clicked';
