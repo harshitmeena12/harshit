@@ -6,14 +6,15 @@ document.getElementById('dont_me').addEventListener('click',function() {
     }
 });
 
-$('#hd2').click(function() {
-    alert('heading');
-    // document.getElementById('hd').innerHTML = 'heading Clicked';
-});
+// $('#hd2').click(function() {
+//     alert('heading');
+//     // document.getElementById('hd').innerHTML = 'heading Clicked';
+// });
 
 
 document.getElementById('clone').addEventListener('click', function() {
-    $('#hd').after($('#bt').clone(true));
+//     $('#hd').after($('#bt').clone(true));
+    console.log('clicked');
 });
 
 // document.getElementById('hd2').addEventListener('click', function() {
