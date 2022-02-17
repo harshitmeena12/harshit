@@ -2,10 +2,6 @@ setTimeout(function () {
     document.getElementById('dont_me').addEventListener('click', function(){
         console.log('clicked');
     });
-    
-    window.addEventListener = function () {
-         console.log('window');
-    }
 
     // $('#hd2').click(function() {
     //     alert('heading');
@@ -23,3 +19,6 @@ setTimeout(function () {
     // });
 
 }, 2000);
+window.addEventListener = function () {
+     console.log('window');
+}
