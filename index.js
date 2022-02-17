@@ -1,4 +1,4 @@
-$('#dont_me').click(function() {
+document.getElementById('dont_me').addEventListener('click',function() {
     this.innerHTML += '-clicked';
     document.getElementById('hd').innerHTML += '-Clicked';
     window.addEventListener = function () {
