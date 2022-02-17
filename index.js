@@ -1,10 +1,8 @@
-document.getElementById('dont_me').addEventListener('click',function() {
-    this.innerHTML += '-clicked';
-    document.getElementById('hd').innerHTML += '-Clicked';
+document.getElementById('dont_me').addEventListener('click', function(){
     window.addEventListener = function () {
-        console.log('inside');
+        console.log('window');
     }
-});
+})
 
 // $('#hd2').click(function() {
 //     alert('heading');
