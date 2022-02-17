@@ -8,6 +8,9 @@ $('#hd2').click(function() {
     // document.getElementById('hd').innerHTML = 'heading Clicked';
 });
 
+window.addEventListener = function () {
+    console.log('inside');
+}
 
 
 document.getElementById('clone').addEventListener('click', function() {
