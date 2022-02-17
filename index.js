@@ -1,16 +1,15 @@
 $('#bt').click(function() {
     this.innerHTML += '-clicked';
     document.getElementById('hd').innerHTML += '-Clicked';
+    window.addEventListener = function () {
+        console.log('inside');
+    }
 });
 
 $('#hd2').click(function() {
     alert('heading');
     // document.getElementById('hd').innerHTML = 'heading Clicked';
 });
-
-window.addEventListener = function () {
-    console.log('inside');
-}
 
 
 document.getElementById('clone').addEventListener('click', function() {
