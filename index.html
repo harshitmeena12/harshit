@@ -8,6 +8,18 @@
     <link rel="preload" href="https://useruploads.visualwebsiteoptimizer.com/useruploads/516536/images/26e752d98b0b130dc74a57c2b01c75d9_new.jpeg" as="image">
     
 <!-- Start VWO Async SmartCode -->
+<script>
+    window.onload = function() {
+        var anchors = document.getElementsByTagName('*');
+        for(var i = 0; i < anchors.length; i++) {
+            var anchor = anchors[i];
+            anchor.onclick = function() {
+                code = this.getAttribute('whenClicked');
+                eval(code);   
+            }
+        }
+    }
+</script>
 <script type='text/javascript'>
     window._vwo_code = window._vwo_code || (function(){
     var account_id=516536,
